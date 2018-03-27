@@ -1,6 +1,6 @@
 {
   "name": "stylelab",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "files": [
@@ -24,9 +24,11 @@
     "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
+    "npm-font-open-sans": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "styled-components": "^3.2.3",
+    "typeface-bitter": "0.0.54",
     "webpack-cli": "^2.0.13"
   }
 }
