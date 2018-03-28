@@ -1,13 +1,22 @@
 import React from 'react';
 
-import {H1,Button} from 'stylelab';
+import {Button, Typography, Color, Card} from 'stylelab';
 
 
-const App =()=> (
+const App = () => (
   <div>
-    <H1>el primer componente</H1>
-    <Button>El botton</Button>
-    <p>reffnderiza</p>
+    <Button green big>
+      EMPRESAS
+    </Button>
+    <Typography title1>Talento Laboratoria LABORATORIA</Typography>
+    <Typography title2>Talento Laboratoria LABORATORIA</Typography>
+    <Typography title3>Talento Laboratoria LABORATORIA</Typography>
+    <Typography phrase>Talento Laboratoria LABORATORIA</Typography>
+    <Typography body>Talento Laboratoria LABORATORIA</Typography>
+    <Typography body2>Talento Laboratoria LABORATORIA</Typography>
+    <p />
+    <Color>componete color</Color>
+    <Card pink big><span>720</span><p>Horas de rendimiento</p></Card>
   </div>
 );
 
